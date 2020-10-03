@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="122.917">
+<testcase classname="Automated EndtoEnd Tests" name="Customer Book Flights for Round Trip an order by search" time="31.143">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When logon with valid user name "santosh2006043@gmail.com" and valid password "Qwer$123".passed
+And moves to login success page.............................................passed
+And go to Flight Booking page...............................................passed
+And he search for Round Trip booking........................................passed
+And moves to Flight details page............................................passed
+And choose departure flight and return flight...............................passed
+And moves to Traveller details page.........................................passed
+And enters travellers details...............................................passed
+And moves to AddOns page....................................................passed
+And select addons...........................................................passed
+And moves to Seat assignments page..........................................passed
+And select seat assignments.................................................passed
+And moves to payment details page...........................................passed
+And enter payments details..................................................passed
+Then moves to order success page............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality Valid and Invalid  Credentials" name="Login with valid credentials" time="34.397">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When go to login page.......................................................passed
+And enter username "santosh2006043@gmail.com" and password "Qwer$123".......passed
+And click login button......................................................passed
+Then moves to login success page............................................passed
+And user logout of the application..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality Valid and Invalid  Credentials" name="Login with invalid credentials" time="17.562">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When go to login page.......................................................passed
+And enter username "santosh2006043@gmail.com" and password "Qwer$123456"....passed
+And click login button......................................................passed
+Then user see login failure message.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login functionality Valid and Invalid  Credentials" name="Login with invalid credentials 2" time="38.763">
+<failure message="" type="java.lang.AssertionError"><![CDATA[Given user is on home page..................................................passed
+When go to login page.......................................................passed
+And enter username "santosh2006043@gmail.com" and password "12345"..........passed
+And click login button......................................................passed
+Then user see login failure message.........................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.LoginSteps.user_see_login_failure_message(LoginSteps.java:80)
+	at ✽.user see login failure message(file:///D:/AdobeAssignmentNew/Automation/src/test/resources/functionalTests/Login.feature:20)
+]]></failure>
+</testcase>
+</testsuite>

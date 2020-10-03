@@ -1,0 +1,639 @@
+2020-08-30 18:06:23,440 INFO  [WebActions] inside openBrowser() method 
+2020-08-30 18:06:31,798 INFO  [WebActions] chrome browser initialized 
+2020-08-30 18:06:43,307 INFO  [LoginSteps] user is on home page step 
+2020-08-30 18:06:43,307 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 18:06:43,308 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:06:46,241 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 18:06:46,250 INFO  [LoginSteps] go to login page step 
+2020-08-30 18:06:46,250 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 18:06:46,250 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:06:46,250 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:46,440 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:06:46,440 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:06:47,804 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:06:49,984 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:06:49,985 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:50,049 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:06:50,341 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 18:06:50,341 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:50,459 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 18:06:50,460 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:06:50,525 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:06:50,657 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 18:06:50,657 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:50,739 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 18:06:56,679 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 18:06:56,679 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 18:06:56,679 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 18:06:56,679 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:56,801 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 18:06:57,482 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 18:06:57,482 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 18:06:57,482 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:57,586 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='password']] 
+2020-08-30 18:06:57,728 INFO  [LoginSteps] click login button step 
+2020-08-30 18:06:57,728 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 18:06:57,728 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:06:59,804 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 18:06:59,804 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:06:59,854 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='submit']] 
+2020-08-30 18:07:17,464 INFO  [LoginSteps] moves to login success page 
+2020-08-30 18:07:17,465 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-08-30 18:07:17,465 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:07:17,708 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 18:07:17,709 INFO  [LoginSteps] user logout of the application 
+2020-08-30 18:07:17,709 INFO  [UserHomePage] Inside logout() 
+2020-08-30 18:07:17,709 INFO  [UserHomePage] Inside getMenuLogout() 
+2020-08-30 18:07:17,710 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:17,877 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //ul[@id='top-header']/li/a[@id='Login']] 
+2020-08-30 18:07:20,712 INFO  [LoginSteps] user is on home page step 
+2020-08-30 18:07:20,713 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 18:07:20,713 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:07:23,660 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 18:07:23,661 INFO  [LoginSteps] go to login page step 
+2020-08-30 18:07:23,661 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 18:07:23,661 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:07:23,661 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:24,107 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:07:24,107 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:24,176 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:07:26,176 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:07:26,176 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:26,322 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:07:26,466 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 18:07:26,466 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:26,603 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 18:07:26,603 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:26,659 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:07:26,793 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 18:07:26,793 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:26,856 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 18:07:28,544 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 18:07:28,544 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 18:07:28,544 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 18:07:28,544 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:28,789 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 18:07:29,026 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 18:07:29,026 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 18:07:29,026 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:29,088 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='password']] 
+2020-08-30 18:07:29,203 INFO  [LoginSteps] click login button step 
+2020-08-30 18:07:29,203 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 18:07:29,203 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:31,292 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 18:07:31,292 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:31,354 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='submit']] 
+2020-08-30 18:07:35,338 INFO  [LoginSteps] user see login failure message 
+2020-08-30 18:07:35,338 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-08-30 18:07:35,339 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:07:35,492 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 18:07:35,498 INFO  [LoginSteps] user is on home page step 
+2020-08-30 18:07:35,498 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 18:07:35,498 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:07:35,599 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 18:07:35,600 INFO  [LoginSteps] go to login page step 
+2020-08-30 18:07:35,600 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 18:07:35,600 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:07:35,600 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:35,666 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:07:35,666 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:35,711 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:07:37,712 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 18:07:37,712 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:37,765 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 18:07:37,894 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 18:07:37,894 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:37,943 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 18:07:37,943 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:37,986 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 18:07:38,119 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 18:07:38,119 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:38,178 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 18:07:41,066 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 18:07:41,066 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 18:07:41,066 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 18:07:41,066 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:41,187 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 18:07:41,409 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 18:07:41,409 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 18:07:41,409 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:41,487 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='password']] 
+2020-08-30 18:07:41,585 INFO  [LoginSteps] click login button step 
+2020-08-30 18:07:41,585 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 18:07:41,585 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 18:07:43,645 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 18:07:43,645 INFO  [WebActions] inside getElement() method 
+2020-08-30 18:07:43,695 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (0db34204009ce4f25686428fdb891869)] -> xpath: //input[@type='submit']] 
+2020-08-30 18:07:43,795 INFO  [LoginSteps] user see login failure message 
+2020-08-30 18:07:43,795 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-08-30 18:07:43,795 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 18:08:14,036 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='errorSectionContent']/p[contains(text(),'The User Id or Password entered is not valid.')] (tried for 15 second(s) with 500 milliseconds interval) 
+2020-08-30 18:08:14,436 INFO  [WebActions] inside closeBrowser() method 
+2020-08-30 19:38:23,897 INFO  [WebActions] inside openBrowser() method 
+2020-08-30 19:38:29,710 INFO  [WebActions] chrome browser initialized 
+2020-08-30 19:38:35,260 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:38:35,260 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:38:35,260 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:38:37,036 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:38:37,064 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:38:37,064 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:38:37,064 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:38:37,064 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:37,159 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:38:37,159 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:38:37,201 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:38:39,206 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:38:39,206 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:39,270 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:38:39,428 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:38:39,428 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:39,548 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:38:39,549 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:38:39,601 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:38:39,775 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:38:39,776 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:39,881 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:38:44,276 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:38:44,276 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:38:44,277 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:38:44,277 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:44,429 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 19:38:44,783 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 19:38:44,783 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 19:38:44,783 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:44,900 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='password']] 
+2020-08-30 19:38:45,070 INFO  [LoginSteps] click login button step 
+2020-08-30 19:38:45,070 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 19:38:45,070 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:38:47,131 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 19:38:47,131 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:38:47,179 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='submit']] 
+2020-08-30 19:39:04,672 INFO  [LoginSteps] moves to login success page 
+2020-08-30 19:39:04,673 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-08-30 19:39:04,673 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:39:05,459 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:39:05,461 INFO  [LoginSteps] user logout of the application 
+2020-08-30 19:39:05,461 INFO  [UserHomePage] Inside logout() 
+2020-08-30 19:39:05,461 INFO  [UserHomePage] Inside getMenuLogout() 
+2020-08-30 19:39:05,461 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:05,512 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //ul[@id='top-header']/li/a[@id='Login']] 
+2020-08-30 19:39:10,062 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:39:10,062 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:39:10,062 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:39:11,301 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:39:11,303 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:39:11,303 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:39:11,303 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:39:11,303 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:11,362 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:39:11,362 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:11,417 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:39:13,417 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:39:13,417 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:13,515 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:39:13,685 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:39:13,685 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:13,815 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:39:13,815 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:13,864 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:39:14,000 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:39:14,000 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:14,088 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:39:16,997 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:39:16,997 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:39:16,997 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:39:16,997 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:17,146 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 19:39:17,399 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 19:39:17,400 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 19:39:17,400 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:17,458 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='password']] 
+2020-08-30 19:39:17,574 INFO  [LoginSteps] click login button step 
+2020-08-30 19:39:17,574 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 19:39:17,574 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:19,629 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 19:39:19,629 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:19,684 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='submit']] 
+2020-08-30 19:39:23,362 INFO  [LoginSteps] user see login failure message 
+2020-08-30 19:39:23,362 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-08-30 19:39:23,362 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:39:23,499 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:39:23,505 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:39:23,505 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:39:23,505 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:39:23,627 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:39:23,630 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:39:23,630 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:39:23,631 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:39:23,631 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:23,684 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:39:23,684 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:23,725 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:39:25,727 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:39:25,727 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:25,779 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:39:25,903 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:39:25,903 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:25,953 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:39:25,954 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:25,994 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:39:26,115 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:39:26,116 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:26,183 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:39:28,868 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:39:28,868 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:39:28,868 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:39:28,868 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:29,061 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 19:39:29,280 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 19:39:29,280 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 19:39:29,280 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:29,342 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='password']] 
+2020-08-30 19:39:29,435 INFO  [LoginSteps] click login button step 
+2020-08-30 19:39:29,435 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 19:39:29,435 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:39:31,504 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 19:39:31,504 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:39:31,581 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (1774cb25970f4960674a140674e46d7f)] -> xpath: //input[@type='submit']] 
+2020-08-30 19:39:31,665 INFO  [LoginSteps] user see login failure message 
+2020-08-30 19:39:31,665 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-08-30 19:39:31,665 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:40:01,899 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='errorSectionContent']/p[contains(text(),'The User Id or Password entered is not valid.')] (tried for 15 second(s) with 500 milliseconds interval) 
+2020-08-30 19:40:04,615 INFO  [WebActions] inside closeBrowser() method 
+2020-08-30 19:43:10,625 INFO  [WebActions] inside openBrowser() method 
+2020-08-30 19:43:16,040 INFO  [WebActions] chrome browser initialized 
+2020-08-30 19:43:21,777 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:43:21,777 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:43:21,777 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:43:23,566 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:43:23,586 INFO  [EndToEndSteps] logon_with_valid_user_name_and_valid_password 
+2020-08-30 19:43:23,588 INFO  [LoginSteps] moves to login success page 
+2020-08-30 19:43:23,588 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-08-30 19:43:23,588 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:43:53,626 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='member-welcome-info']/h2 (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-30 19:43:53,630 INFO  [EndToEndSteps] go_to_Flight_Booking_page() 
+2020-08-30 19:43:53,633 INFO  [EndToEndSteps] he_search_for_Round_Trip_booking() 
+2020-08-30 19:43:53,635 INFO  [EndToEndSteps] moves_to_Flight_details_page 
+2020-08-30 19:43:53,638 INFO  [EndToEndSteps] choose_departure_flight_and_return_flight 
+2020-08-30 19:43:53,641 INFO  [EndToEndSteps] moves_to_Traveller_details_page 
+2020-08-30 19:43:53,644 INFO  [EndToEndSteps] enters_travellers_details 
+2020-08-30 19:43:53,647 INFO  [EndToEndSteps] moves_to_AddOns_page 
+2020-08-30 19:43:53,653 INFO  [EndToEndSteps] select_addons 
+2020-08-30 19:43:53,656 INFO  [EndToEndSteps] moves_to_Seat_assignments_page 
+2020-08-30 19:43:53,659 INFO  [EndToEndSteps] select_seat_assignments 
+2020-08-30 19:43:53,663 INFO  [EndToEndSteps] moves_to_payment_details_page 
+2020-08-30 19:43:53,666 INFO  [EndToEndSteps] enter_payments_details 
+2020-08-30 19:43:53,670 INFO  [EndToEndSteps] moves_to_order_success_page 
+2020-08-30 19:43:53,718 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:43:53,719 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:43:53,719 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:43:53,805 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:43:53,808 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:43:53,809 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:43:53,809 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:43:53,809 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:43:53,885 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (af69b39110e7a67b6b613e9d6f884bb6)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:43:53,885 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:43:53,948 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:43:55,954 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:43:55,954 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:43:56,012 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (af69b39110e7a67b6b613e9d6f884bb6)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:43:56,150 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:43:56,150 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:43:56,228 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (af69b39110e7a67b6b613e9d6f884bb6)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:43:56,229 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:43:56,270 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:43:56,435 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:43:56,435 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:43:56,508 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (af69b39110e7a67b6b613e9d6f884bb6)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:44:02,666 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:44:02,666 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:44:02,666 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:44:02,666 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:44:16,076 ERROR [WebActions] Webelement founded = Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Mobile Number'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-30 19:44:16,167 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:44:16,167 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:44:16,167 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:44:45,464 INFO  [WebActions] inside openBrowser() method 
+2020-08-30 19:44:52,513 INFO  [WebActions] chrome browser initialized 
+2020-08-30 19:45:08,137 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:45:08,137 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:45:08,137 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:45:38,119 INFO  [WebActions] inside openBrowser() method 
+2020-08-30 19:45:43,823 INFO  [WebActions] chrome browser initialized 
+2020-08-30 19:45:51,640 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:45:51,640 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:45:51,640 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:45:52,498 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:45:52,521 INFO  [EndToEndSteps] logon_with_valid_user_name_and_valid_password 
+2020-08-30 19:45:52,526 INFO  [LoginSteps] moves to login success page 
+2020-08-30 19:45:52,526 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-08-30 19:45:52,527 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:46:22,654 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='member-welcome-info']/h2 (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-30 19:46:22,657 INFO  [EndToEndSteps] go_to_Flight_Booking_page() 
+2020-08-30 19:46:22,661 INFO  [EndToEndSteps] he_search_for_Round_Trip_booking() 
+2020-08-30 19:46:22,665 INFO  [EndToEndSteps] moves_to_Flight_details_page 
+2020-08-30 19:46:22,667 INFO  [EndToEndSteps] choose_departure_flight_and_return_flight 
+2020-08-30 19:46:22,671 INFO  [EndToEndSteps] moves_to_Traveller_details_page 
+2020-08-30 19:46:22,673 INFO  [EndToEndSteps] enters_travellers_details 
+2020-08-30 19:46:22,677 INFO  [EndToEndSteps] moves_to_AddOns_page 
+2020-08-30 19:46:22,679 INFO  [EndToEndSteps] select_addons 
+2020-08-30 19:46:22,681 INFO  [EndToEndSteps] moves_to_Seat_assignments_page 
+2020-08-30 19:46:22,683 INFO  [EndToEndSteps] select_seat_assignments 
+2020-08-30 19:46:22,685 INFO  [EndToEndSteps] moves_to_payment_details_page 
+2020-08-30 19:46:22,689 INFO  [EndToEndSteps] enter_payments_details 
+2020-08-30 19:46:22,693 INFO  [EndToEndSteps] moves_to_order_success_page 
+2020-08-30 19:46:22,734 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:46:22,734 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:46:22,734 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:46:22,820 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:46:22,823 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:46:22,823 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:46:22,823 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:46:22,823 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:22,897 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:46:22,897 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:46:22,954 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:46:24,972 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:46:24,973 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:25,114 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:46:25,284 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:46:25,284 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:25,403 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:46:25,403 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:46:25,452 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:46:25,584 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:46:25,584 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:25,667 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:46:28,612 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:46:28,612 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:46:28,612 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:46:28,613 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:28,733 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 19:46:28,993 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 19:46:28,994 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 19:46:28,994 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:29,057 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@type='password']] 
+2020-08-30 19:46:29,196 INFO  [LoginSteps] click login button step 
+2020-08-30 19:46:29,196 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 19:46:29,196 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:46:31,272 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 19:46:31,272 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:31,334 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@type='submit']] 
+2020-08-30 19:46:47,027 INFO  [LoginSteps] moves to login success page 
+2020-08-30 19:46:47,027 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-08-30 19:46:47,027 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:46:47,255 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:46:47,259 INFO  [LoginSteps] user logout of the application 
+2020-08-30 19:46:47,259 INFO  [UserHomePage] Inside logout() 
+2020-08-30 19:46:47,259 INFO  [UserHomePage] Inside getMenuLogout() 
+2020-08-30 19:46:47,259 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:47,374 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //ul[@id='top-header']/li/a[@id='Login']] 
+2020-08-30 19:46:51,528 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:46:51,528 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:46:51,528 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:46:52,442 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:46:52,445 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:46:52,445 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:46:52,445 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:46:52,445 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:52,965 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:46:52,965 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:46:53,001 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:46:55,002 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:46:55,002 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:55,137 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:46:55,265 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:46:55,265 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:55,381 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:46:55,381 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:46:55,462 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:46:55,625 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:46:55,625 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:55,739 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:46:58,415 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-08-30 19:46:58,415 INFO  [LoginPage] inside enterUsername() method 
+2020-08-30 19:46:58,416 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-08-30 19:46:58,416 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:58,535 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-08-30 19:46:58,843 INFO  [LoginPage] inside enterPassword() method 
+2020-08-30 19:46:58,843 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-08-30 19:46:58,843 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:46:58,902 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@type='password']] 
+2020-08-30 19:46:59,029 INFO  [LoginSteps] click login button step 
+2020-08-30 19:46:59,029 INFO  [LoginPage] inside clickLoginButton() method 
+2020-08-30 19:46:59,029 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:47:01,097 INFO  [LoginPage] inside getButtonLogin() method 
+2020-08-30 19:47:01,097 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:47:01,218 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //input[@type='submit']] 
+2020-08-30 19:47:06,387 INFO  [LoginSteps] user see login failure message 
+2020-08-30 19:47:06,387 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-08-30 19:47:06,387 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:47:06,532 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:47:06,539 INFO  [LoginSteps] user is on home page step 
+2020-08-30 19:47:06,539 INFO  [HomePage] inside verifyHomePage() 
+2020-08-30 19:47:06,539 INFO  [WebActions] inside isElementPresent() method 
+2020-08-30 19:47:06,596 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-30 19:47:06,599 INFO  [LoginSteps] go to login page step 
+2020-08-30 19:47:06,599 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-08-30 19:47:06,599 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:47:06,599 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:47:06,648 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:47:06,648 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:47:06,689 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:47:08,690 INFO  [HomePage] inside getMenuLogin() 
+2020-08-30 19:47:08,690 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:47:08,782 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-08-30 19:47:08,908 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-08-30 19:47:08,908 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:47:08,982 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-08-30 19:47:08,982 INFO  [WebActions] inside waitForElementClickable() method 
+2020-08-30 19:47:09,019 INFO  [WebActions]  waitForElementClickable() succes 
+2020-08-30 19:47:09,155 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-08-30 19:47:09,156 INFO  [WebActions] inside getElement() method 
+2020-08-30 19:47:09,238 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e7045b9e9bb751f665727f6425a27206)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-08-30 19:47:39,545 INFO  [HomePage]  spiceClubMembersMemberLoginClick() failed . Exception=timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=85.0.4183.83)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0VG8UU6', ip: '192.168.43.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\SANTOS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59419}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e7045b9e9bb751f665727f6425a27206 
+2020-08-30 19:47:44,658 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:11:13,909 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:11:14,002 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:11:14,003 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:13:14,706 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:13:14,811 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:13:14,811 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:19:26,171 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:19:26,259 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:19:26,259 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:21:29,068 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:21:29,158 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:21:29,158 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:22:05,333 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:22:05,421 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:22:05,421 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:23:28,291 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:23:28,382 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:23:28,383 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:24:06,688 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:24:06,796 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:24:06,796 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:27:24,573 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:27:24,704 INFO  [WebActions] inside closeBrowser() method 
+2020-09-02 02:27:24,704 ERROR [WebActions] browser not closed Exception = null 
+2020-09-02 02:29:39,054 INFO  [WebActions] inside openBrowser() method 
+2020-09-02 02:29:56,594 INFO  [WebActions] chrome browser initialized 
+2020-09-02 02:30:07,131 INFO  [LoginSteps] user is on home page step 
+2020-09-02 02:30:07,131 INFO  [HomePage] inside verifyHomePage() 
+2020-09-02 02:30:07,131 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:30:07,350 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:30:07,383 INFO  [EndToEndSteps] logon_with_valid_user_name_and_valid_password 
+2020-09-02 02:30:07,389 INFO  [LoginSteps] moves to login success page 
+2020-09-02 02:30:07,389 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-09-02 02:30:07,390 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:30:37,583 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='member-welcome-info']/h2 (tried for 10 second(s) with 500 milliseconds interval) 
+2020-09-02 02:30:37,586 INFO  [EndToEndSteps] go_to_Flight_Booking_page() 
+2020-09-02 02:30:37,589 INFO  [EndToEndSteps] he_search_for_Round_Trip_booking() 
+2020-09-02 02:30:37,592 INFO  [EndToEndSteps] moves_to_Flight_details_page 
+2020-09-02 02:30:37,595 INFO  [EndToEndSteps] choose_departure_flight_and_return_flight 
+2020-09-02 02:30:37,598 INFO  [EndToEndSteps] moves_to_Traveller_details_page 
+2020-09-02 02:30:37,601 INFO  [EndToEndSteps] enters_travellers_details 
+2020-09-02 02:30:37,603 INFO  [EndToEndSteps] moves_to_AddOns_page 
+2020-09-02 02:30:37,605 INFO  [EndToEndSteps] select_addons 
+2020-09-02 02:30:37,606 INFO  [EndToEndSteps] moves_to_Seat_assignments_page 
+2020-09-02 02:30:37,610 INFO  [EndToEndSteps] select_seat_assignments 
+2020-09-02 02:30:37,613 INFO  [EndToEndSteps] moves_to_payment_details_page 
+2020-09-02 02:30:37,616 INFO  [EndToEndSteps] enter_payments_details 
+2020-09-02 02:30:37,619 INFO  [EndToEndSteps] moves_to_order_success_page 
+2020-09-02 02:30:37,706 INFO  [LoginSteps] user is on home page step 
+2020-09-02 02:30:37,706 INFO  [HomePage] inside verifyHomePage() 
+2020-09-02 02:30:37,706 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:30:37,814 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:30:37,816 INFO  [LoginSteps] go to login page step 
+2020-09-02 02:30:37,816 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-09-02 02:30:37,816 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:30:37,816 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:37,932 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:30:37,932 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:30:38,101 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:30:40,118 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:30:40,118 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:40,197 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:30:40,355 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-09-02 02:30:40,356 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:40,452 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-09-02 02:30:40,452 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:30:40,509 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:30:40,658 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-09-02 02:30:40,658 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:40,763 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-09-02 02:30:41,723 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-09-02 02:30:41,723 INFO  [LoginPage] inside enterUsername() method 
+2020-09-02 02:30:41,723 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-09-02 02:30:41,723 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:45,734 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-09-02 02:30:46,634 INFO  [LoginPage] inside enterPassword() method 
+2020-09-02 02:30:46,634 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-09-02 02:30:46,634 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:46,846 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='password']] 
+2020-09-02 02:30:46,946 INFO  [LoginSteps] click login button step 
+2020-09-02 02:30:46,947 INFO  [LoginPage] inside clickLoginButton() method 
+2020-09-02 02:30:46,947 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:30:49,006 INFO  [LoginPage] inside getButtonLogin() method 
+2020-09-02 02:30:49,006 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:30:49,099 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='submit']] 
+2020-09-02 02:31:07,381 INFO  [LoginSteps] moves to login success page 
+2020-09-02 02:31:07,381 INFO  [UserHomePage] Inside verifyLoginSuccesPage() 
+2020-09-02 02:31:07,381 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:31:07,573 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:31:07,577 INFO  [LoginSteps] user logout of the application 
+2020-09-02 02:31:07,577 INFO  [UserHomePage] Inside logout() 
+2020-09-02 02:31:07,577 INFO  [UserHomePage] Inside getMenuLogout() 
+2020-09-02 02:31:07,577 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:07,715 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //ul[@id='top-header']/li/a[@id='Login']] 
+2020-09-02 02:31:12,100 INFO  [LoginSteps] user is on home page step 
+2020-09-02 02:31:12,101 INFO  [HomePage] inside verifyHomePage() 
+2020-09-02 02:31:12,101 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:31:15,657 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:31:15,661 INFO  [LoginSteps] go to login page step 
+2020-09-02 02:31:15,661 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-09-02 02:31:15,661 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:31:15,661 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:16,200 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:31:16,201 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:16,244 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:31:18,244 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:31:18,244 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:18,331 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:31:18,476 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-09-02 02:31:18,476 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:18,599 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-09-02 02:31:18,599 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:18,679 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:31:18,825 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-09-02 02:31:18,825 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:18,887 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-09-02 02:31:21,510 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-09-02 02:31:21,510 INFO  [LoginPage] inside enterUsername() method 
+2020-09-02 02:31:21,510 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-09-02 02:31:21,510 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:21,662 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-09-02 02:31:22,018 INFO  [LoginPage] inside enterPassword() method 
+2020-09-02 02:31:22,018 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-09-02 02:31:22,018 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:22,097 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='password']] 
+2020-09-02 02:31:22,242 INFO  [LoginSteps] click login button step 
+2020-09-02 02:31:22,242 INFO  [LoginPage] inside clickLoginButton() method 
+2020-09-02 02:31:22,242 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:24,310 INFO  [LoginPage] inside getButtonLogin() method 
+2020-09-02 02:31:24,310 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:24,354 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='submit']] 
+2020-09-02 02:31:29,463 INFO  [LoginSteps] user see login failure message 
+2020-09-02 02:31:29,463 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-09-02 02:31:29,463 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:31:29,652 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:31:29,661 INFO  [LoginSteps] user is on home page step 
+2020-09-02 02:31:29,661 INFO  [HomePage] inside verifyHomePage() 
+2020-09-02 02:31:29,661 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:31:29,716 INFO  [WebActions]  isElementPresent() sucess 
+2020-09-02 02:31:29,717 INFO  [LoginSteps] go to login page step 
+2020-09-02 02:31:29,718 INFO  [HomePage] inside spiceClubMembersMemberLoginClick() 
+2020-09-02 02:31:29,718 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:31:29,718 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:29,770 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:31:29,770 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:29,806 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:31:31,807 INFO  [HomePage] inside getMenuLogin() 
+2020-09-02 02:31:31,807 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:31,851 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[contains(text(),'Login / Signup')]] 
+2020-09-02 02:31:31,972 INFO  [HomePage] inside getMenuElementSpiceClubMembers() 
+2020-09-02 02:31:31,973 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:32,029 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']] 
+2020-09-02 02:31:32,029 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:32,068 INFO  [WebActions]  waitForElementClickable() succes 
+2020-09-02 02:31:32,201 INFO  [HomePage] inside getMenuElementMemberLogin() 
+2020-09-02 02:31:32,201 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:32,263 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //a[text()='SpiceClub Members']//parent::li/ul/li/a[text()='Member Login']] 
+2020-09-02 02:31:35,050 INFO  [LoginSteps] logon_with_valid_username_and_valid_password step 
+2020-09-02 02:31:35,050 INFO  [LoginPage] inside enterUsername() method 
+2020-09-02 02:31:35,050 INFO  [LoginPage] inside getTxtboxLoginId() method 
+2020-09-02 02:31:35,050 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:35,164 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@placeholder='Mobile Number']] 
+2020-09-02 02:31:35,411 INFO  [LoginPage] inside enterPassword() method 
+2020-09-02 02:31:35,411 INFO  [LoginPage] inside getTxtboxPassword() method 
+2020-09-02 02:31:35,411 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:35,467 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='password']] 
+2020-09-02 02:31:35,565 INFO  [LoginSteps] click login button step 
+2020-09-02 02:31:35,565 INFO  [LoginPage] inside clickLoginButton() method 
+2020-09-02 02:31:35,565 INFO  [WebActions] inside waitForElementClickable() method 
+2020-09-02 02:31:37,630 INFO  [LoginPage] inside getButtonLogin() method 
+2020-09-02 02:31:37,630 INFO  [WebActions] inside getElement() method 
+2020-09-02 02:31:37,674 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (304e8925e8a76b1106f935808b5176b5)] -> xpath: //input[@type='submit']] 
+2020-09-02 02:31:37,766 INFO  [LoginSteps] user see login failure message 
+2020-09-02 02:31:37,766 INFO  [LoginPage] inside verifyLoginErrorMessage() method 
+2020-09-02 02:31:37,766 INFO  [WebActions] inside isElementPresent() method 
+2020-09-02 02:32:07,832 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //div[@id='errorSectionContent']/p[contains(text(),'The User Id or Password entered is not valid.')] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-09-02 02:32:11,220 INFO  [WebActions] inside closeBrowser() method 

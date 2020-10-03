@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.657 s <<< FAILURE! - in runners.TestRunner
+runners.TestRunner  Time elapsed: 2.654 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: D:\AdobeAssignmentNew\Automation\drivers\chromedriver.exe
+	at runners.TestRunner.setup(TestRunner.java:40)
+
+runners.TestRunner  Time elapsed: 2.656 s  <<< ERROR!
+java.lang.NullPointerException
+	at runners.TestRunner.teardown(TestRunner.java:50)
+
